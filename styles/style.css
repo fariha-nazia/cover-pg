@@ -1,6 +1,9 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+section{
+    margin-top: 130px;
+}
 
 /* Nav style */
 .header{
@@ -24,6 +27,7 @@ nav li{
     list-style: none;
     margin-left: 25px;
     font-size: 20px;
+    font-weight: 600;
 }
 .btn-primary{
     /* outer portion */
@@ -36,7 +40,7 @@ nav li{
     color: #FFFFFF;
     border: 0;
     padding: 10px 35px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 
 }
 /* banner style */
@@ -71,14 +75,14 @@ nav li{
     }
 /* about section style */
 .about{
-    margin-top: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px 150px;
     text-align: center;
+
 }
 .section-title{
-    /* text-align: center; */
+    text-align: center;
     margin-bottom: 30px;
     font-size: 35px;
 }
@@ -90,7 +94,7 @@ nav li{
 }
 .about-info-container{
     display: flex;
-    justify-content: space-around;
+    gap: 24px;
 }
 
 .info-title{
@@ -103,4 +107,37 @@ nav li{
     font-size: 20px;
     font-weight: 700;
 
+}
+
+/* skills section */
+.section-title{
+    margin-top: 130px;
+    border-radius: 10px;
+    /* padding: 130px 150px; */
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+/* My resume summary */
+.resume-container{
+    display: flex;
 }
