@@ -32,17 +32,14 @@ nav li{
     font-weight: 600;
 }
 .btn-primary{
-    /* outer portion */
     height: 50px;
     border-radius: 5px;
     background: #FD6E0A;
-    /* inner portion */
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
     border: 0;
     padding: 10px 35px;
-    /* margin-bottom: 20px; */
 
 }
 /* banner style */
